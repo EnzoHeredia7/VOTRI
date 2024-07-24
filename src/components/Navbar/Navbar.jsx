@@ -35,9 +35,9 @@ const Navbar = () => {
           <div>
             <div className="flex items-center justify-between py-1 md:py-1 md:block">
               {/* Logo section */}
-              <Link className="text-3xl text-indigo-600 font-semibold tracking-[0.1rem] flex items-end gap-x-1 relative">
-                G<span className="text-xl font-bold text-gray-300">Y</span>M
-                <Dumbbell className="w-5 h-4 text-indigo-600 -rotate-45 absolute top-0 left-[46%] translate-x-[-50%]" />
+              <Link className="text-3xl text-orange-500  font-semibold tracking-[0.0.5rem] flex items-end gap-x-1 relative">
+                V<span className="text-xl font-bold text-gray-300">O</span>TRI
+                <Dumbbell className="w-5 h-4 text-orange-500 -rotate-45 absolute top-0 left-[35.5%] translate-x-[-50%]" />
               </Link>
               <div className="md:hidden">
                 <button
@@ -64,7 +64,7 @@ const Navbar = () => {
                 <li key={index}>
                   <Link
                     to={item.link}
-                    className="text-gray-500 text-lg font-medium hover:text-indigo-600 ease-out duration-700"
+                    className="text-gray-500 text-lg font-medium hover:text-orange-400 ease-out duration-700"
                   >
                     {item.name}
                   </Link>
