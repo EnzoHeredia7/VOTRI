@@ -8,6 +8,7 @@ import Trainers from "./Trainers";
 import Popular from "./Popular";
 import PrincingPlan from "./PrincingPlan";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
     <Popular/>
     <PrincingPlan/>
     <Contact/>
+    <Footer/>
       </div>
     </>
   );
